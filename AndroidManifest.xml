@@ -15,9 +15,9 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.contacts"
-    android:sharedUserId="android.uid.shared"
->
+          xmlns:pluto="http://www.w3.org/2001/pluto.html"
+          package="com.android.contacts"
+          android:sharedUserId="android.uid.shared">
 
     <original-package android:name="com.android.contacts" />
 
@@ -35,6 +35,7 @@
     <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
+        pluto:isThemeable="true"
         android:label="@string/contactsList"
         android:icon="@drawable/ic_launcher_contacts"
         android:process="android.process.acore"

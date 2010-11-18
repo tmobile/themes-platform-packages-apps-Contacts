@@ -15,12 +15,14 @@
 -->
 
 <resources>
-    <style name="DialtactsTheme" parent="@android:Theme">
+    <style name="DialtactsTheme">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowContentOverlay">@null</item>
     </style>
 
-    <style name="ContactsSearchTheme" parent="@android:Theme.Translucent.NoTitleBar">
+    <style name="ContactsSearchTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
         <item name="android:windowAnimationStyle">@style/ContactsSearchAnimation</item>
     </style>
 
@@ -46,7 +48,8 @@
         <item name="android:src">@drawable/ic_btn_round_less</item>
     </style>
 
-    <style name="TallTitleBarTheme" parent="android:Theme.NoTitleBar">
+    <style name="TallTitleBarTheme">
+        <item name="android:windowNoTitle">true</item>
         <item name="android:windowContentOverlay">@null</item>
     </style>
 
@@ -59,7 +62,8 @@
         <item name="android:windowIsFloating">true</item>
     </style>
 
-    <style name="FullyTranslucent" parent="android:Theme.Translucent.NoTitleBar">
+    <style name="FullyTranslucent">
+        <item name="android:windowNoTitle">true</item>
         <item name="android:windowContentOverlay">@null</item>
     </style>
 
